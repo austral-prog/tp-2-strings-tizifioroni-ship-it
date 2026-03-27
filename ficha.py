@@ -51,7 +51,7 @@ def ficha():
     dado_vuelta = ".".join(punto.split()[::-1])
     punto_p = dado_vuelta.replace(" ", ".")
     print(f"Usuario: {punto_p}")
-    print(f"Email valido: {"@" in email}")
+    print(f"Email valido: {'@' in email}")
     dominio = email.split('@', 1)[-1]
     print(f"Dominio: {dominio.lower()}")
     nombre_archivo = nombre_limpio.replace(" ", "_")
