@@ -5,7 +5,7 @@ def change():
     pass
 
     gasto = float(input("Ingrese el gasto: "))
-    dinero_recibido = float(input("Ingrese el dinero recibido: "))
+    dinero_recibido = int(input("Ingrese el dinero recibido: "))
 
     print("Ingresar gasto:")  #67.4
     print(gasto)
